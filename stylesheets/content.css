@@ -1,0 +1,130 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'TT Travels Next', serif;
+  font-weight: 600;
+  width: 1920px;
+  height: 5550px;
+  background-color: #071EC3;
+  color: #f2f2f2;
+  background-image: url('../img/lalas.png');
+  cursor: none;
+}
+
+.cursor {
+position: absolute;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+border: 1px solid white;
+}
+
+p {
+  font-size: 30px;
+}
+
+.headerh {
+  font-size: 24px;
+}
+
+.headerp {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+a {
+  font-size: 24px;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.header {
+  position: relative;
+  margin: -6.64vh 0vw 0vh 45.3vw;
+}
+
+.proekt {
+  position: relative;
+  line-height: 10px;
+}
+
+.kurator {
+  position: relative;
+  margin: -4.88vh 0% 0% 19.9vw;
+  line-height: 10px;
+}
+
+.modul {
+  position: relative;
+  margin: -4.74vh 0% 0% 40.9vw;
+  line-height: 10px;
+}
+
+#logo {
+  width: 121px;
+  height: 100px;
+  position: relative;
+  margin: 2.6% 0% 0% 2.3%;
+  background-image: url('../img/logo.svg');
+}
+
+.gochi {
+  font-weight: 900;
+  font-size: 220px;
+}
+
+#g {
+  transform: rotate(-16deg);
+  position: relative;
+  width: 17.188vw;
+  margin: 21.9vh 0vw 0vh 12vw;
+}
+
+#o {
+  transform: rotate(8deg);
+  position: relative;
+  width: 23.646vw;
+  margin: -42.8vh 0vw 0vh 27.2vw;
+}
+
+#ch {
+  transform: rotate(-6deg);
+  position: relative;
+  width: 20.521vw;
+  margin: -56.9vh 0vw 0vh 45.36vw;
+}
+
+#i {
+  transform: rotate(12deg);
+  position: relative;
+  width: 22.240vw;
+  margin: -27.7vh 0vw 0vh 65.4vw;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  display: none;
+}
+
+.block0 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: none;
+}
+
+.block1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: none;
+}
+
+.block2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: none;
+}
