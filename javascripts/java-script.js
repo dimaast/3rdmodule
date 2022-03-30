@@ -17,4 +17,19 @@ $(document).ready(function(){
 	$(".block0").click(function(){
 		$(".block").toggleClass("block2");
 	});
+  
+});
+$(document).ready(function(){
+$("a").mouseover(function(){
+  $(".cursor").css("transform", "scale(0.4)", 0.5)
+  });
+$("a").mouseover(function(){
+  $(".cursor").css("border", "2px solid", 0.5)
+    });
+$("a").mouseleave(function(){
+  $(".cursor").css("border", "1px solid", 0.5)
+    });
+$("a").mouseleave(function(){
+  $(".cursor").css("transform", "none", 0.5)
+    });
 });
