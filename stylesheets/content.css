@@ -20,10 +20,15 @@ border-radius: 50%;
 border: 1px solid #f2f2f2;
 transition: border 0.5s ease,
             transform 0.5s ease;
+cursor: none;
 }
 
 p {
   font-size: 1.563vw;
+}
+
+h2 {
+  font-size: 2.500vw;
 }
 
 a {
@@ -55,8 +60,8 @@ button:active {
 
 .header {
   position: relative;
-  margin: -5vw 0vw 0vw 45.3vw;
-  line-height: 0.6vw;
+  margin: -4.33vw 0vw 0vw 45.73vw;
+  line-height: 1.78vw;
 }
 
 .proekt {
@@ -65,12 +70,12 @@ button:active {
 
 .kurator {
   position: relative;
-  margin: -3.82vw 0vw 0vw 19.9vw;
+  margin: -3.68vw 0vw 0vw 19.9vw;
 }
 
 .modul {
   position: relative;
-  margin: -3.7vw 0vw 0vw 40.9vw;
+  margin: -3.56vw 0vw 0vw 40.88vw;
 }
 
 .headerh {
@@ -88,7 +93,7 @@ button:active {
   width: 6.302vw;
   height: 5.208vw;
   position: relative;
-  margin: 2.6vw 0vw 0vw 2.3vw;
+  margin: 2.6vw 0vw 0vw 2.6vw;
   background-image: url('../img/logo.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -100,33 +105,332 @@ button:active {
 .gochi {
   position: relative;
   font-weight: 900;
-  font-size: 11.458vw;
+  font-size: 22.917vw;
 }
 
 #g {
   transform: rotate(-16deg);
   position: relative;
   width: 17.188vw;
-  margin: 16.25vw 0vw 0vw 12vw;
+  margin: 20.3vw 0vw 0vw 13.231vw;
 }
 
 #o {
   transform: rotate(8deg);
   position: relative;
   width: 23.646vw;
-  margin: -32vw 0vw 0vw 27.2vw;
+  margin: -22.9vw 0vw 0vw 28.431vw;
 }
 
 #ch {
   transform: rotate(-6deg);
   position: relative;
   width: 20.521vw;
-  margin: -42.8vw 0vw 0vw 45.36vw;
+  margin: -33.54vw 0vw 0vw 46.541vw;
 }
 
 #i {
   transform: rotate(12deg);
   position: relative;
   width: 22.240vw;
-  margin: -20.7vw 0vw 0vw 65.4vw;
+  margin: -11.6vw 0vw 0vw 66.581vw;
+}
+
+.d1p1 {
+  width: 12.708vw;
+  height: 8.533vw;
+  transform: rotate(-45deg);
+  position: relative;
+  margin: -26.2vw 0vw 0vw 3.081vw;
+  background-image: url('../img/d1p1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: d1p1animation 5s steps(1) infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes d1p1animation {
+  0% {left: 0vw; top: 0vw;}
+  40% {left: 0vw; top: -0.522vw;}
+  80% {left: -0.522vw; top: 0vw;}
+  99% {left: -0.01vw; top: 0vw;}
+}
+
+.d1p2 {
+  width: 4.375vw;
+  height: 4.375vw;
+  position: relative;
+  margin: -15.9vw 0vw 0vw 30.261vw;
+  background-image: url('../img/d1p2.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: d1p2animation 5s steps(1) infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes d1p2animation {
+  0% {left: 0vw; top: 0vw;}
+  40% {left: 0.522vw; top: 0vw;}
+  80% {left: 0vw; top: -0.522vw;}
+  99% {left: 0vw; top: -0.01vw;}
+}
+
+.d1p3 {
+  width: 4.344vw;
+  height: 9.272vw;
+  transform: rotate(68.81deg);
+  position: relative;
+  margin: -3.3vw 0vw 0vw 82.481vw;
+  background-image: url('../img/d1p3.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: d1p3animation 5s steps(1) infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes d1p3animation {
+  0% {left: 0vw; top: 0vw;}
+  40% {left: 0.522vw; top: 0.522vw;}
+  80% {left: 0.522vw; top: 0vw;}
+  99% {left: -0.01vw; top: 0vw;}
+}
+
+.d1p4 {
+  width: 4.344vw;
+  height: 9.272vw;
+  transform: rotate(-52.48deg);
+  position: relative;
+  margin: 24.3vw 0vw 0vw 21.181vw;
+  background-image: url('../img/d1p4.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: d1p4animation 5s steps(1) infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes d1p4animation {
+  0% {left: 0vw; top: 0vw;}
+  40% {left: 0vw; top: -0.522vw;}
+  80% {left: -0.522vw; top: 0vw;}
+  99% {left: -0.01vw; top: 0vw;}
+}
+
+.d1p5 {
+  width: 12.656vw;
+  height: 6.328vw;
+  transform: rotate(-30deg);
+  position: relative;
+  margin: -22.1vw 0vw 0vw 51.781vw;
+  background-image: url('../img/d1p5.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: d1p5animation 5s steps(1) infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes d1p5animation {
+  0% {left: 0vw; top: 0vw;}
+  40% {left: 0vw; top: -0.522vw;}
+  80% {left: 0.522vw; top: 0vw;}
+  99% {left: -0.01vw; top: 0vw;}
+}
+
+.d1p6 {
+  width: 14.727vw;
+  height: 14.480vw;
+  transform: rotate(30deg);
+  position: relative;
+  margin: 5.2vw 0vw 0vw 78.931vw;
+  background-image: url('../img/d1p6.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: d1p6animation 5s steps(1) infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes d1p6animation {
+  0% {transform: rotate(40deg); left: 0vw; top: 0vw;}
+  40% {transform: rotate(30deg); left: 0vw; top: 0.522vw;}
+  80% {transform: rotate(20deg); left: -0.522vw; top: 0vw;}
+  99% {transform: rotate(30deg); left: 0vw; top: 0vw;}
+}
+
+.d1h2 {
+  margin: -14.26vw 0vw 0vw 30.6vw;
+}
+
+.buttonnachat {
+  position: relative;
+  margin: 3.6vw 0vw 0vw 39.6vw;
+}
+
+.line {
+  width: 65.625vw;
+  height: 1.625vw;
+  position: relative;
+  background-image: url('../img/line.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.d1d2line {
+  margin: 11.9vw 0vw 0vw 17.26vw;
+}
+
+/* Second slide */
+
+.d2h2 {
+  margin: 3.2vw 0vw 0vw 31vw;
+}
+
+#podskazka {
+  width: 25.646vw;
+  height: 4.375vw;
+  margin: 8.3vw 0vw 0vw 71.9vw;
+  text-indent: -60px;
+  line-height: 2.188vw;
+}
+
+.d2bukva1 {
+  width: 14.542vw;
+  height: 14.542vw;
+  position: relative;
+  transform: rotate(-9.6deg);
+  margin: -5.66vw 0vw 0vw 3.74vw;
+  background-image: url('../img/d2bukva1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.d2bubble1 {
+  width: 24.688vw;
+  height: 13.229vw;
+  position: relative;
+  margin: -13.3vw 0vw 0vw 23.44vw;
+  background-image: url('../img/d2bubble1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+#d2bubble1text {
+  width: 18.906vw;
+  height: 6.563vw;
+  padding: 2.344vw 2.865vw 0vw 2.917vw;
+  line-height: 2.188vw;
+  color: #071EC3;
+}
+
+.d2p1 {
+  width: 17.292vw;
+  height: 7.604vw;
+  position: relative;
+  transform: rotate(-60deg);
+  margin: -8.54vw 0vw 0vw 45.84vw;
+  background-image: url('../img/d2p1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.rv1 {
+  width: 20.833vw;
+  height: 26.894vw;
+  position: relative;
+  margin: 3.8vw 0vw 0vw 5.88vw;
+  transform: rotate(-22.16deg);
+  background-image: url('../img/d2rabbitv1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.rv2 {
+  width: 20.833vw;
+  height: 26.894vw;
+  position: relative;
+  margin: 3.8vw 0vw 0vw 5.88vw;
+  transform: rotate(-22.16deg);
+  background-image: url('../img/d2rabbitv2.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.rv3 {
+  width: 20.833vw;
+  height: 26.894vw;
+  position: relative;
+  margin: 3.8vw 0vw 0vw 5.88vw;
+  transform: rotate(-22.16deg);
+  background-image: url('../img/d2rabbitv3.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.d2bukva2 {
+  width: 14.403vw;
+  height: 14.344vw;
+  position: relative;
+  transform: rotate(45deg);
+  margin: -27vw 0vw 0vw 28.5vw;
+  background-image: url('../img/d2bukva2.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.d2p2 {
+  width: 10.234vw;
+  height: 10.186vw;
+  position: relative;
+  margin: -18.3vw 0vw 0vw 69.4vw;
+  background-image: url('../img/d2p2.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.d2p3 {
+  width: 4.375vw;
+  height: 4.375vw;
+  position: relative;
+  margin: -5.8vw 0vw 0vw 47vw;
+  background-image: url('../img/d2p3.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.d2bukva3 {
+width: 14.500vw;
+height: 14.542vw;
+position: relative;
+transform: rotate(-60deg);
+margin: -7.9vw 0vw 0vw 56.7vw;
+background-image: url('../img/d2bukva3.svg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% auto;
+}
+
+.d2bukva4 {
+width: 17.865vw;
+height: 14.427vw;
+position: relative;
+transform: rotate(-165deg);
+margin: -15.7vw 0vw 0vw 79vw;
+background-image: url('../img/d2bukva4.svg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% auto;
 }
