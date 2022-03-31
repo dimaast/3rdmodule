@@ -6,21 +6,7 @@ $(document).mousemove(function(e) {
 });
 
 $(document).ready(function(){
-$(".block0").hover(function(){
-  $(".block").addClass("block1");
-}, function() {
-  $(".block").removeClass("block1");
-    });
-});
-
-$(document).ready(function(){
-	$(".block0").click(function(){
-		$(".block").toggleClass("block2");
-	});
-  
-});
-$(document).ready(function(){
-$("a").mouseover(function(){
+$(".activeelement").mouseover(function(){
   $(".cursor").css("transform", "scale(0.4)", 0.5)
   });
 $("a").mouseover(function(){
@@ -32,4 +18,19 @@ $("a").mouseleave(function(){
 $("a").mouseleave(function(){
   $(".cursor").css("transform", "none", 0.5)
     });
+});
+
+$(document).ready(function(){
+$(".block0").hover(function(){
+  $(".block").addClass("block1");
+}, function() {
+  $(".block").removeClass("block1");
+    });
+});
+
+$(document).ready(function(){
+	$(".block0").click(function(){
+		$(".block").toggleClass("block2");
+	});
+
 });
