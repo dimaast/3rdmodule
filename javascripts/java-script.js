@@ -419,6 +419,8 @@ $(document).ready(function(){
   });
 });
 
+// Алерт
+
 $(document).ready(function(){
   $(function(){
     $('.buttonzabrat').bind('click', function(){

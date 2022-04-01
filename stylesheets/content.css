@@ -9,7 +9,7 @@ body {
   cursor: none;
 }
 
-/* Standart settings */
+/* Базовые настройки */
 
 .cursor {
 position: absolute;
@@ -55,7 +55,7 @@ button:active {
   transform: scale(0.95);
 }
 
-/* Header */
+/* Шапка */
 
 .d1back {
   width: 100.000vw;
@@ -98,7 +98,7 @@ button:active {
   font-weight: 400;
 }
 
-/* Logotype*/
+/* Логотип */
 
 #logo {
   width: 6.302vw;
@@ -111,7 +111,7 @@ button:active {
   background-size: 100% auto;
 }
 
-/* First slide */
+/* Первый экран */
 
 .gochi {
   position: relative;
@@ -295,7 +295,7 @@ button:active {
   margin: 11.9vw 0vw 0vw 17.26vw;
 }
 
-/* Second slide */
+/* Второй экран */
 
 .d2h2 {
   margin: 3.2vw 0vw 0vw 31vw;
@@ -821,7 +821,7 @@ button:active {
   margin: 2.9vw 0vw 0vw 17.26vw;
 }
 
-/* Third slide */
+/* Третий экран */
 
 .d3h2 {
   margin: 3.2vw 0vw 0vw 34.2vw;
