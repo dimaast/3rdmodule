@@ -418,3 +418,11 @@ $(document).ready(function(){
     };
   });
 });
+
+$(document).ready(function(){
+  $(function(){
+    $('.buttonzabrat').bind('click', function(){
+        alert('Проздравляем с приобретением!');
+    });
+  });
+});
