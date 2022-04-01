@@ -447,3 +447,52 @@
   .d3dv3 { margin: 5.3vw 0vw 0vw 16.2vw;}
   .nameh2 { margin: -24.8vw 0vw 0vw 54.18vw;}
 }
+@media only screen and (min-width: 360px) and (max-device-width: 414px) {
+  #g { margin: 59.8vw 0vw 0vw 13.231vw;}
+  p { font-size: 1.932vw;}
+  h2 { font-size: 3.865vw;}
+  .d1h2 { margin: 2.74vw 0vw 0vw 20.6vw;}
+  .headerh { font-size: 1.932vw;}
+  .headerp { font-size: 1.932vw;}
+  .kurator {
+    position: relative;
+    margin: -4.2vw 0vw 0vw 26.2vw;}
+  .header { margin: -9.33vw 0vw 0vw 45.73vw;}
+  .cursor {display: none;}
+  .d1back {
+    width: 100vw;
+    height: 180.918vw;
+    position: absolute;
+    margin: -4.8vw 0vw 0vw 0.1vw;
+    display: block;}
+  .modul {display: none;}
+  .d1p1 {display: none;}
+  .d1p2 {display: none;}
+  .d1p3 {display: none;}
+  .d1p4 {display: none;}
+  .d1p5 {display: none;}
+  .d1p6 {display: none;}
+  #logo {
+    width: 14.614vw;
+    height: 12.077vw;
+    position: relative;
+    margin: 4.8vw 0vw 0vw 4.8vw;}
+  button {
+    width: 32.85vw;
+    height: 8.213vw;}
+  .buttonnachat {
+    position: relative;
+    margin: 6.5vw 0vw 0vw 33.6vw;}
+  .line {
+    width: 76.087vw;
+    height: 1.208vw;}
+  .d1d2line {
+    margin: 63.9vw 0vw 0vw 12.26vw;}
+  .d2h2 {
+    margin: 8vw 0vw 0vw 20.6vw;}
+  #podskazka {
+    width: 35.507vw;
+    height: 5.314vw;
+    margin: 10vw 0vw 0vw 65.6vw;
+    text-indent: -17px;}
+}
