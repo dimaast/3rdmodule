@@ -447,6 +447,8 @@
   .d3dv3 { margin: 5.3vw 0vw 0vw 16.2vw;}
   .nameh2 { margin: -24.8vw 0vw 0vw 54.18vw;}
 }
+
+/* Что-то пошло не так ｡･ﾟ(ﾟ⊃ω⊂ﾟ)ﾟ･｡ */
 @media only screen and (min-width: 360px) and (max-device-width: 414px) {
   #g { margin: 59.8vw 0vw 0vw 13.231vw;}
   p { font-size: 1.932vw;}
