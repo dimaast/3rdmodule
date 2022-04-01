@@ -191,19 +191,52 @@
     height: 15.924vw;
     transform: rotate(15deg);
     margin: -32.2vw 0vw 0vw 35.6vw;}
-
-
-  .d3bv1 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3bv2 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3bv3 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3rv1 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3rv2 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3rv3 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3hv1 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3hv2 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3hv3 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3dv1 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3dv2 { margin: 3.6vw 0vw 0vw 16.2vw;}
-  .d3dv3 { margin: 3.6vw 0vw 0vw 16.2vw;}
+  .d2p9 {
+    width: 13.984vw;
+    height: 9.39vw;
+    margin: 15vw 0vw 0vw 41.8vw;}
+  .d2bukva15 {
+    width: 16.097vw;
+    height: 16.039vw;
+    position: relative;
+    margin: -21.8vw 0vw 0vw 53.9vw;}
+  .d2bubble4 {
+    width: 27.249vw;
+    height: 14.602vw;
+    margin: -32.5vw 0vw 0vw 54.7vw;}
+  #d2bubble4text {
+    width: 17.7vw;
+    height: 7.324vw;
+    padding: 2.637vw 4.271vw 0vw 4.785vw;}
+  .d2bukva16 {
+    width: 12.992vw;
+    height: 15.924vw;
+    margin: -15.4vw 0vw 0vw 80.6vw;}
+  .bv1 {
+    width: 25.293vw;
+    height: 21.396vw;
+    margin: 0.8vw 0vw 0vw 72.3vw;}
+  .bv2 {
+    width: 25.293vw;
+    height: 21.396vw;
+    margin: 0.8vw 0vw 0vw 72.3vw;}
+  .bv3 {
+    width: 25.293vw;
+    height: 21.396vw;
+    margin: 0.8vw 0vw 0vw 72.3vw;}
+  .d2d3line {
+    margin: 4.6vw 0vw 0vw 17.26vw;}
+  .d3bv1 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3bv2 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3bv3 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3rv1 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3rv2 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3rv3 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3hv1 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3hv2 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3hv3 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3dv1 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3dv2 { margin: 5.3vw 0vw 0vw 16.2vw;}
+  .d3dv3 { margin: 5.3vw 0vw 0vw 16.2vw;}
   .nameh2 { margin: -24.8vw 0vw 0vw 54.18vw;}
 }
